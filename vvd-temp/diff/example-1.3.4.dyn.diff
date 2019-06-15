@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" ?>
+<DiffSet>
+	<NodeChange InstanceGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb" Status="added" Type="/">
+		<MetaData>
+			<Inspect>&lt;Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid=&quot;2cfae3ab-7e1e-43f1-8f60-0c877943ecbb&quot; type=&quot;Dynamo.Graph.Nodes.ZeroTouch.DSFunction&quot; nickname=&quot;/&quot; x=&quot;964&quot; y=&quot;448&quot; isVisible=&quot;true&quot; isUpstreamVisible=&quot;true&quot; lacing=&quot;Shortest&quot; isSelectedInput=&quot;False&quot; IsFrozen=&quot;false&quot; isPinned=&quot;false&quot; assembly=&quot;Operators&quot; function=&quot;/@var[]..[],var[]..[]&quot;&gt;&lt;PortInfo index=&quot;0&quot; default=&quot;False&quot; /&gt;&lt;PortInfo index=&quot;1&quot; default=&quot;False&quot; /&gt;&lt;/Dynamo.Graph.Nodes.ZeroTouch.DSFunction&gt;</Inspect>
+			
+      
+		</MetaData>
+		<Position>
+			
+        
+			<X>964</X>
+			
+        
+			<Y>448</Y>
+			
+      
+		</Position>
+		
+    
+	</NodeChange>
+	<NodeChange InstanceGuid="1aadaf11-d57f-48b1-a520-db41df6614f0" Status="added" Type="Watch">
+		<MetaData>
+			<Inspect>&lt;CoreNodeModels.Watch guid=&quot;1aadaf11-d57f-48b1-a520-db41df6614f0&quot; type=&quot;CoreNodeModels.Watch&quot; nickname=&quot;Watch&quot; x=&quot;1339.6&quot; y=&quot;337.2&quot; isVisible=&quot;true&quot; isUpstreamVisible=&quot;true&quot; lacing=&quot;Disabled&quot; isSelectedInput=&quot;False&quot; IsFrozen=&quot;false&quot; isPinned=&quot;false&quot;&gt;&lt;PortInfo index=&quot;0&quot; default=&quot;False&quot; /&gt;&lt;/CoreNodeModels.Watch&gt;</Inspect>
+			
+      
+		</MetaData>
+		<Position>
+			
+        
+			<X>1339.6</X>
+			
+        
+			<Y>337.2</Y>
+			
+      
+		</Position>
+		
+    
+	</NodeChange>
+	<NodeChange InstanceGuid="c35e9e1f-d8cd-4777-b4c3-8ca6ee185072" Status="changed" Type="Number Slider">
+		<MetaData>
+			<Inspect>&lt;CoreNodeModels.Input.DoubleSlider guid=&quot;c35e9e1f-d8cd-4777-b4c3-8ca6ee185072&quot; type=&quot;CoreNodeModels.Input.DoubleSlider&quot; nickname=&quot;Number Slider&quot; x=&quot;232.8&quot; y=&quot;448&quot; isVisible=&quot;true&quot; isUpstreamVisible=&quot;true&quot; lacing=&quot;Disabled&quot; isSelectedInput=&quot;True&quot; IsFrozen=&quot;false&quot; isPinned=&quot;false&quot;&gt;&lt;System.Double&gt;25&lt;/System.Double&gt;&lt;Range min=&quot;0&quot; max=&quot;100&quot; step=&quot;0.1&quot; /&gt;&lt;/CoreNodeModels.Input.DoubleSlider&gt;</Inspect>
+			
+      
+		</MetaData>
+		<Position>
+			
+        
+			<X>232.8</X>
+			
+        
+			<Y>448</Y>
+			
+      
+		</Position>
+		
+    
+	</NodeChange>
+	<NodeChange InstanceGuid="03db771b-cce7-4125-8566-9dca12c0eba1" Status="changed" Type="Watch">
+		<MetaData>
+			<Inspect>&lt;CoreNodeModels.Watch guid=&quot;03db771b-cce7-4125-8566-9dca12c0eba1&quot; type=&quot;CoreNodeModels.Watch&quot; nickname=&quot;Watch&quot; x=&quot;1214.4&quot; y=&quot;168.8&quot; isVisible=&quot;true&quot; isUpstreamVisible=&quot;true&quot; lacing=&quot;Disabled&quot; isSelectedInput=&quot;False&quot; IsFrozen=&quot;false&quot; isPinned=&quot;false&quot;&gt;&lt;PortInfo index=&quot;0&quot; default=&quot;False&quot; /&gt;&lt;/CoreNodeModels.Watch&gt;</Inspect>
+			
+      
+		</MetaData>
+		<Position>
+			
+        
+			<X>1214.4</X>
+			
+        
+			<Y>168.8</Y>
+			
+      
+		</Position>
+		
+    
+	</NodeChange>
+	<EdgeChange DstGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_IN1" InstanceGuid="c35e9e1f-d8cd-4777-b4c3-8ca6ee185072_OUT0|2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_IN1" SrcGuid="c35e9e1f-d8cd-4777-b4c3-8ca6ee185072_OUT0" Status="added"/>
+	<EdgeChange DstGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_IN0" InstanceGuid="314d0780-8d8c-427f-9a7f-9b7aee46385c_OUT0|2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_IN0" SrcGuid="314d0780-8d8c-427f-9a7f-9b7aee46385c_OUT0" Status="added"/>
+	<EdgeChange DstGuid="1aadaf11-d57f-48b1-a520-db41df6614f0_IN0" InstanceGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_OUT0|1aadaf11-d57f-48b1-a520-db41df6614f0_IN0" SrcGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_OUT0" Status="added"/>
+	<PortChange InstanceGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_IN1" ParentGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb" Status="added">
+		<MetaData>
+			<Inspect>end</Inspect>
+			
+          
+		</MetaData>
+	</PortChange>
+	<PortChange InstanceGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_IN0" ParentGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb" Status="added">
+		<MetaData>
+			<Inspect>end</Inspect>
+			
+          
+		</MetaData>
+	</PortChange>
+	<PortChange InstanceGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb_OUT0" ParentGuid="2cfae3ab-7e1e-43f1-8f60-0c877943ecbb" Status="added">
+		<MetaData>
+			<Inspect>start</Inspect>
+			
+          
+		</MetaData>
+	</PortChange>
+	<PortChange InstanceGuid="1aadaf11-d57f-48b1-a520-db41df6614f0_IN0" ParentGuid="1aadaf11-d57f-48b1-a520-db41df6614f0" Status="added">
+		<MetaData>
+			<Inspect>end</Inspect>
+			
+          
+		</MetaData>
+	</PortChange>
+</DiffSet>
